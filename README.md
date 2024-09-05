@@ -1,4 +1,4 @@
-### Projeto de Treinamento Distribuído de Machine Learning com PySpark no Amazon EMR
+# Projeto de Treinamento Distribuído de Machine Learning com PySpark no Amazon EMR
 
 ## Visão Geral
 
