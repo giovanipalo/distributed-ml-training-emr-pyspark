@@ -56,7 +56,7 @@ O projeto é estruturado da seguinte maneira:
    ```bash
    docker run -dit --name p2 -v ./IaC:/iac terraform-image:p2 /bin/bash
    ```
-No Windows, substitua **./IaC** pelo caminho completo da pasta, por exemplo: **C:\SeuCaminho\IaC**.
+No Windows, substitua ```./IaC``` pelo caminho completo da pasta, por exemplo: ```C:\SeuCaminho\IaC```.
 
 4. **Verificação das Versões**
 
