@@ -68,12 +68,12 @@ No Windows, substitua ```./IaC``` pelo caminho completo da pasta, por exemplo: `
    ```
 5. **Configuração dos Arquivos**
 
-   - Edite os arquivos **config.tf** e **terraform.tfvars** para incluir seu ID da AWS onde indicado.
-   - No script **projeto2.py**, adicione seu ID da AWS e suas chaves AWS onde indicado.
+   - Edite os arquivos ```config.tf``` e ```terraform.tfvars``` para incluir seu ID da AWS onde indicado.
+   - No script ```projeto2.py```, adicione seu ID da AWS e suas chaves AWS onde indicado.
 
 6. **Criação do Bucket S3**
 
-   - Crie manualmente o bucket S3 com o nome **p2-terraform-id-aws**, substituindo **'id-aws'** pelo seu ID da AWS.
+   - Crie manualmente o bucket S3 com o nome ```p2-terraform-id-aws```, substituindo ```id-aws``` pelo seu ID da AWS.
 
 7. **Execução do Terraform**
 
