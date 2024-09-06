@@ -73,7 +73,7 @@ No Windows, substitua ```./IaC``` pelo caminho completo da pasta, por exemplo: `
 
 6. **Criação do Bucket S3**
 
-   - Crie manualmente o bucket S3 com o nome **p2-terraform-id-aws**, substituindo **id-aws** pelo seu ID da AWS.
+   - Crie manualmente o bucket S3 com o nome **p2-terraform-id-aws**, substituindo **'id-aws'** pelo seu ID da AWS.
 
 7. **Execução do Terraform**
 
