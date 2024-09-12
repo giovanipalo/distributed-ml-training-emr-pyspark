@@ -1,4 +1,3 @@
-# Projeto 2 - Deploy do Stack de Treinamento Distribuído de Machine Learning com PySpark no Amazon EMR
 # Script de Definição de Variáveis
 
 variable "name_bucket" {
