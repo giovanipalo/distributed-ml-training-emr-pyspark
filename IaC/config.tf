@@ -1,4 +1,3 @@
-# Projeto 2 - Deploy do Stack de Treinamento Distribuído de Machine Learning com PySpark no Amazon EMR
 # Configuração Para o Estado Remoto, Versão do Terraform e Provider
 
 # Versão do Terraform
