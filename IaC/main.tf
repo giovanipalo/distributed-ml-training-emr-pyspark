@@ -1,6 +1,3 @@
-# Projeto 2 - Deploy do Stack de Treinamento Distribuído de Machine Learning com PySpark no Amazon EMR
-# Script Principal
-
 # Módulo de Armazenamento
 module "s3" {
   source            = "./modules/s3"
