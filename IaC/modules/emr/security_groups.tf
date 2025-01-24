@@ -4,7 +4,7 @@
 resource "aws_security_group" "main_security_group" {
   
   # Nome do grupo de segurança
-  name = "emr-main-security-group-p2"
+  name = "emr-main-security-group-gp"
   
   # Descrição do grupo de segurança
   description = "Allow inbound traffic for EMR main node."
@@ -33,7 +33,7 @@ resource "aws_security_group" "main_security_group" {
 resource "aws_security_group" "core_security_group" {
   
   # Nome do grupo de segurança
-  name = "emr-core-security-group-p2"
+  name = "emr-core-security-group-gp"
   
   # Descrição do grupo de segurança
   description = "Allow inbound outbound traffic for EMR core nodes."

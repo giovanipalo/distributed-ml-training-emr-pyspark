@@ -13,8 +13,8 @@ from pyspark.ml.evaluation import *
 from pyspark.ml.evaluation import MulticlassClassificationEvaluator
 from pyspark.ml.feature import StopWordsRemover
 from pyspark.ml.tuning import CrossValidator, ParamGridBuilder
-from p2_log import grava_log
-from p2_upload_s3 import upload_dados_processados_bucket
+from gp_log import grava_log
+from gp_upload_s3 import upload_dados_processados_bucket
 
 # Define uma função para calcular a quantidade e a porcentagem de valores nulos em cada coluna de um DataFrame
 def calcula_valores_nulos(df):

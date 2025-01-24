@@ -9,12 +9,12 @@ import boto3
 import traceback
 import pyspark 
 from pyspark.sql import SparkSession
-from p2_log import grava_log
-from p2_processamento import limpa_transforma_dados
-from p2_ml import cria_modelos_ml
+from gp_log import grava_log
+from gp_processamento import limpa_transforma_dados
+from gp_ml import cria_modelos_ml
 
 # Nome do Bucket
-NOME_BUCKET = "p2-<id-aws>"
+NOME_BUCKET = "gp-<id-aws>"
 
 # Chaves de acesso à AWS
 AWSACCESSKEYID = "coloque-aqui-sua-chave-aws"

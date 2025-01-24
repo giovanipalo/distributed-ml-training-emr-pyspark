@@ -48,13 +48,13 @@ O projeto é estruturado da seguinte maneira:
 2. **Construção da Imagem Docker**
 
    ```bash
-   docker build -t terraform-image:p2 .
+   docker build -t terraform-image:gp .
    ```
 
 3. **Criação e execução do Contâiner Docker**
 
    ```bash
-   docker run -dit --name p2 -v ./IaC:/iac terraform-image:p2 /bin/bash
+   docker run -dit --name gp -v ./IaC:/iac terraform-image:gp /bin/bash
    ```
 No Windows, substitua ```./IaC``` pelo caminho completo da pasta, por exemplo: ```C:\SeuCaminho\IaC```.
 
@@ -69,11 +69,11 @@ No Windows, substitua ```./IaC``` pelo caminho completo da pasta, por exemplo: `
 5. **Configuração dos Arquivos**
 
    - Edite os arquivos ```config.tf``` e ```terraform.tfvars``` para incluir seu ID da AWS onde indicado.
-   - No script ```projeto2.py```, adicione seu ID da AWS e suas chaves AWS onde indicado.
+   - No script ```projeto.py```, adicione seu ID da AWS e suas chaves AWS onde indicado.
 
 6. **Criação do Bucket S3**
 
-   - Crie manualmente o bucket S3 com o nome ```p2-terraform-id-aws```, substituindo ```id-aws``` pelo seu ID da AWS.
+   - Crie manualmente o bucket S3 com o nome ```gp-terraform-id-aws```, substituindo ```id-aws``` pelo seu ID da AWS.
 
 7. **Execução do Terraform**
 

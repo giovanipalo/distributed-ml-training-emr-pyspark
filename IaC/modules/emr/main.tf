@@ -88,7 +88,7 @@ resource "aws_emr_cluster" "cluster" {
       hadoop_jar_step = [
         {
           jar        = "command-runner.jar"
-          args       = ["spark-submit", "/home/hadoop/pipeline/projeto2.py"]
+          args       = ["spark-submit", "/home/hadoop/pipeline/projeto.py"]
           main_class = ""
           properties = {}
         }

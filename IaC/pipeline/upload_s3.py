@@ -3,7 +3,7 @@
 # Imports
 import os
 import os.path
-from p2_log import grava_log
+from gp_log import grava_log
 
 # Define uma função para carregar um diretório no formato parquet para um bucket S3
 def upload_dados_processados_bucket(df, path, s3_path, bucket, ambiente_execucao_EMR):

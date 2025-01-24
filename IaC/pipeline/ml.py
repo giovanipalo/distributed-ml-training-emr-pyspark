@@ -17,8 +17,8 @@ from pyspark.ml.evaluation import *
 from pyspark.ml.evaluation import MulticlassClassificationEvaluator
 from pyspark.ml.feature import StopWordsRemover
 from pyspark.ml.tuning import CrossValidator, ParamGridBuilder
-from p2_log import grava_log
-from p2_upload_s3 import upload_modelos_ml_bucket
+from gp_log import grava_log
+from gp_upload_s3 import upload_modelos_ml_bucket
 
 # Classe para treinar e avaliar o modelo
 def treina_avalia_modelo(spark, classifier, features, classes, train, test, bucket, nome_bucket, ambiente_execucao_EMR):
